@@ -13,12 +13,16 @@ namespace TiposVariaveis
             string val = "44";
             decimal dec = 33m;
             char woow = 'h';
+            bool kek = false;
+            bool nice = true;
         
-            Console.WriteLine("Os valores sao: "  + qual + " " + fff + " " + val + " " + dec + " " + woow);
+            Console.WriteLine("Os valores sao: "  + qual + " " + fff + " " + val + " " + dec + " " + woow + " " + kek + " " + nice);
 
-            char omega = '0x000D';
+            char omega = '\u03A9';
             char eternity = '\u03A9';
             Console.WriteLine(omega + eternity);
+
+            
         }
     }
 }
